@@ -90,9 +90,9 @@ export default function SlideStack() {
   const activeLayer = STACK_LAYERS.find((l) => l.id === selectedLayerId) || STACK_LAYERS[0];
 
   return (
-    <div className="w-full h-full flex flex-col md:flex-row gap-8 items-stretch justify-center">
+    <div className="w-full h-full flex flex-col md:flex-row gap-8 items-stretch overflow-hidden">
       {/* Visual Stack Layout */}
-      <div className="flex-1 flex flex-col justify-center min-h-[300px]">
+      <div className="flex-1 flex flex-col justify-start min-h-0 overflow-y-auto">
         <div className="flex justify-between items-center mb-4">
           <span className="font-mono text-xs text-stone-500 tracking-wider font-semibold uppercase">
             Click layer to inspect specifications:
