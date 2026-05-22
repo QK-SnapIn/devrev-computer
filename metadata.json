@@ -1,0 +1,6 @@
+{
+  "name": "Agentic Workspace Presentation",
+  "description": "An interactive slide deck and customer pitch presentation for DevRev — The Agentic Workspace.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
